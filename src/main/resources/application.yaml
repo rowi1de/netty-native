@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: netty-native
+  r2dbc:
+    url: "r2dbc:h2:mem:///testdb"
+    username: root
+    password: admin
+    name: admin
