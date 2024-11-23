@@ -12,6 +12,8 @@ services:
         MYSQL_DATABASE: admin
   netty-native:
     image: docker.io/library/netty-native:0.0.1-SNAPSHOT
+    profiles:
+      - native
     ports:
       - 8080:8080
     healthcheck:

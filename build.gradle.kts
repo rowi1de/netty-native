@@ -71,6 +71,12 @@ kotlin {
     }
 }
 
+graalvmNative {
+    metadataRepository {
+        version = "0.3.14"
+    }
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }
